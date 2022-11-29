@@ -15,10 +15,12 @@ public class CoreJava303128 {
 		float espresso = 4.18f;
 		float subtotal;
 		float totalSale;
+		final float SALES_TAX = 1.06f;
 		//adding up items
 		subtotal = 3 * cappuccino;
 		subtotal += 4 * coffee;
 		subtotal += 2 * espresso;
+		subtotal = subtotal * SALES_TAX;
 		totalSale = subtotal;
 		System.out.println(totalSale);
 		
