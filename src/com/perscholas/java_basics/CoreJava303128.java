@@ -22,8 +22,7 @@ public class CoreJava303128 {
 		subtotal += 2 * espresso;
 		subtotal = subtotal * SALES_TAX;
 		totalSale = subtotal;
-		System.out.println(totalSale);
+		System.out.printf("%.2f", totalSale);
 		
 	}
-
 }
