@@ -7,6 +7,10 @@ public class OperatorsNumbers {
 		question2();
 		question3();
 		question4();
+		question5();
+		question6();
+		question7();
+		question8();
 	}
 
 	public static void question1() {
@@ -32,13 +36,8 @@ public class OperatorsNumbers {
 		 * Convert the following binary numbers to decimal notation. Do not use any Java
 		 * functions or online conversion applications to calculate the answer, as this
 		 * will hinder the learning process and your understanding of the concept.
-		 * However, you may check your answers using Java methods. 
-		 * 0010 
-		 * 1001 
-		 * 0011 0100
-		 * 0111 0010 
-		 * 0010 0001 1111 
-		 * 0010 1100 0110 0111
+		 * However, you may check your answers using Java methods. 0010 1001 0011 0100
+		 * 0111 0010 0010 0001 1111 0010 1100 0110 0111
 		 * 
 		 */
 		System.out.println("Question 2");
@@ -68,21 +67,21 @@ public class OperatorsNumbers {
 		x = x << 1;
 		System.out.println(x);
 		System.out.println(Integer.toBinaryString(x));
-		
+
 		System.out.println("Part 1 (9)");
 		x = 9;
 		System.out.println(Integer.toBinaryString(x));
 		x = x << 1;
 		System.out.println(x);
 		System.out.println(Integer.toBinaryString(x));
-		
+
 		System.out.println("Part 2 (17)");
 		x = 17;
 		System.out.println(Integer.toBinaryString(x));
 		x = x << 1;
 		System.out.println(x);
 		System.out.println(Integer.toBinaryString(x));
-		
+
 		System.out.println("Part 3 (88)");
 		x = 88;
 		System.out.println(Integer.toBinaryString(x));
@@ -108,21 +107,21 @@ public class OperatorsNumbers {
 		x = x >> 2;
 		System.out.println(x);
 		System.out.println(Integer.toBinaryString(x));
-		
+
 		System.out.println("Part 1 (255)");
 		x = 255;
 		System.out.println(Integer.toBinaryString(x));
 		x = x >> 2;
 		System.out.println(x);
 		System.out.println(Integer.toBinaryString(x));
-		
+
 		System.out.println("Part 1 (1555)");
 		x = 1555;
 		System.out.println(Integer.toBinaryString(x));
 		x = x >> 2;
 		System.out.println(x);
 		System.out.println(Integer.toBinaryString(x));
-		
+
 		System.out.println("Part 1 (32456)");
 		x = 32456;
 		System.out.println(Integer.toBinaryString(x));
@@ -142,6 +141,18 @@ public class OperatorsNumbers {
 		 * the values to be before printing them out.
 		 * 
 		 */
+		System.out.println("Question 5");
+		int x, y, z;
+		x = 7;
+		y = 17;
+		// 00111
+		// 10001
+		// 00001
+		z = (x & y);
+		System.out.println(z);
+		// 10111
+		z = (x | y);
+		System.out.println(z);
 	}
 
 	public static void question6() {
@@ -151,6 +162,11 @@ public class OperatorsNumbers {
 		 * and after the increment operator.
 		 * 
 		 */
+		System.out.println("Question 6");
+		int x = 5;
+		System.out.println(x);
+		x++;
+		System.out.println(x);
 	}
 
 	public static void question7() {
@@ -159,6 +175,15 @@ public class OperatorsNumbers {
 		 * 1 and does this multiple times. Assign a value to an integer variable, print
 		 * it, increment by 1, print it again, increment by 1, and then print it again.
 		 */
+		System.out.println("Question 7");
+		int x = 1;
+		System.out.println(x);
+		x++;
+		System.out.println(x);
+		++x;
+		System.out.println(x);
+		x += 1;
+		System.out.println(x);
 	}
 
 	public static void question8() {
@@ -171,6 +196,12 @@ public class OperatorsNumbers {
 		 * and then calculated the sum, while the second configuration calculated the
 		 * sum and then incremented x.
 		 */
+		System.out.println("Question 8");
+		int x, y;
+		x = 5;
+		y = 8;
+		
+
 	}
 
 }

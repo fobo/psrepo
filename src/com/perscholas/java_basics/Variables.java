@@ -11,7 +11,6 @@ public class Variables {
 		 * each, and adds them together. Assign the sum to a variable. Print out the
 		 * result.
 		 */
-
 		q1();
 		q2();
 		q3();
