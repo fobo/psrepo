@@ -29,6 +29,7 @@ public class OperatorsNumbers {
 		System.out.println("78               1001110");
 		System.out.println("787              1100010011");
 		System.out.println("33987            1000010011000011");
+		System.out.println("========");
 	}
 
 	public static void question2() {
@@ -47,6 +48,7 @@ public class OperatorsNumbers {
 		System.out.println("0111 0010              114");
 		System.out.println("0010 0001 1111         543");
 		System.out.println("0010 1100 0110 0111    11367");
+		System.out.println("========");
 
 	}
 
@@ -88,7 +90,7 @@ public class OperatorsNumbers {
 		x = x << 1;
 		System.out.println(x);
 		System.out.println(Integer.toBinaryString(x));
-
+		System.out.println("========");
 	}
 
 	public static void question4() {
@@ -128,6 +130,7 @@ public class OperatorsNumbers {
 		x = x >> 2;
 		System.out.println(x);
 		System.out.println(Integer.toBinaryString(x));
+		System.out.println("========");
 	}
 
 	public static void question5() {
@@ -153,6 +156,7 @@ public class OperatorsNumbers {
 		// 10111
 		z = (x | y);
 		System.out.println(z);
+		System.out.println("========");
 	}
 
 	public static void question6() {
@@ -167,6 +171,7 @@ public class OperatorsNumbers {
 		System.out.println(x);
 		x++;
 		System.out.println(x);
+		System.out.println("========");
 	}
 
 	public static void question7() {
@@ -184,6 +189,7 @@ public class OperatorsNumbers {
 		System.out.println(x);
 		x += 1;
 		System.out.println(x);
+		System.out.println("========");
 	}
 
 	public static void question8() {
@@ -200,6 +206,10 @@ public class OperatorsNumbers {
 		int x, y;
 		x = 5;
 		y = 8;
+		int sum = x++ + y;
+		System.out.println(sum);
+		System.out.println("========");
+		
 		
 
 	}
