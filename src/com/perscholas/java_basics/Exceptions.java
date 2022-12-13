@@ -62,6 +62,8 @@ public class Exceptions {
 				System.out.println("try again");
 			} 
 		}
+		
+		divide();
 
 	}
 
